@@ -21,8 +21,7 @@ toggle() {
 
 
   render(){
-    console.log("called");
-
+ 
       return(
       <div style={{"padding":"20px", "border":"2px solid #000", "cursor":"pointer"}}>
       <div onClick={this.toggle.bind(this)}>
